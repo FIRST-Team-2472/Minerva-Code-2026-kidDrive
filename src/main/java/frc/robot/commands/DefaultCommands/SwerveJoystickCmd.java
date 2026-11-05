@@ -86,8 +86,8 @@ public class SwerveJoystickCmd extends Command {
 
         xSpeed = xLimiter.calculate(xSpeed);
         ySpeed = yLimiter.calculate(ySpeed);
-        swerveSubsystem.executeJoystickRunFromField(xSpeed, ySpeed, turningSpeed);
 
+        swerveSubsystem.executeJoystickRunFromField(xSpeed, ySpeed, turningSpeed);
     }
 
     @Override

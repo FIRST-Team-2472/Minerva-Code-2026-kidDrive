@@ -77,7 +77,7 @@ public class RobotContainer {
       ()-> xbox.getLeftY(),
       ()-> xbox.getLeftX(),
       ()-> -xbox.getRightX(),
-      ()-> false
+      ()-> true
     ));
 
     pneumaticsSubsystem.setDefaultCommand(new PneumaticsCmd(pneumaticsSubsystem));
